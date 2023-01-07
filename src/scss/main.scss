@@ -1,5 +1,11 @@
+//here are root -must-be-first
+@import './base/_base-dir';
+
+
+$abstand:10%;
 img{
-  max-width: 10%;
+  max-width: 10%+$abstand;
   height: auto;
   border-radius: 50%;
+filter:sepia(100%);;
 }
